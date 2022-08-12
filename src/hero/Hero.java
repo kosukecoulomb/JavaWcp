@@ -4,6 +4,7 @@ public class Hero extends Character {
 	String name;
 	private int hp;
 	//Sword sword;
+	static int money;
 
 	public void attack(Monster m) {
 		//System.out.println(this.name + "は" + this.sword.name + "で攻撃した");
@@ -60,5 +61,9 @@ public class Hero extends Character {
 	//コンストラクタ
 	public Hero() {
 		System.out.println("Heroのコンストラクタが動作");
+	}
+	
+	public static void setRandomMoney() {
+		Hero.money = (int)(Math.random() * 1000);
 	}
 }
