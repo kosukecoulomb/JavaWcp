@@ -8,3 +8,4 @@ public class Main {
 	 System.out.println(h1.money);
  }
 }
+	
