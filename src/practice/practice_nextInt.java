@@ -7,6 +7,7 @@ public class practice_nextInt {
 		
 		int i = rnd.nextInt();
 		int i2 = rnd.nextInt(100);
+		
 		System.out.println(i);
 		System.out.println(i2);
 	}
