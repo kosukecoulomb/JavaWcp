@@ -3,7 +3,7 @@ package practice;
 public class prob4_13_14 {
 	public static void main(String[] args) {
 		
-		int rnd = (int)(Math.random()*10);
+		int rnd = (int)(Math.random()*(-35 - 40));
 		
 		if (rnd >= 5) {
 			for (int i = 0; i < rnd; i++) {
