@@ -13,6 +13,14 @@ public class practice4_22 {
 			n2 = n3;
 			n3 = n1 + n2;
 		}
+		
+		for(int n = 1; n >= 3; n++) {
+			for (int j = 3; n<=1; n--) {
+				if (n != j) {
+					System.out.print("(" + n + "," + j + ")");
+				}
+			}
+		}
 	}
 
 }
